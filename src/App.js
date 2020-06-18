@@ -28,7 +28,6 @@ export default class App extends Component {
   }
 
   handleSalaryChange = (salary) => {
-    console.log('new salary', salary);
     const fullSalary = this.calculateSalary(salary);
     this.setState(fullSalary);
   };
